@@ -71,7 +71,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.image("logo.png", width=100)st.title("তথ্য খাতা")
+st.image("logo.png", width=100)
+st.title("তথ্য খাতা")
 
 # ---------- নতুন এন্ট্রি ----------
 with st.expander("➕ নতুন এন্ট্রি যোগ করুন"):
