@@ -5,8 +5,7 @@ from datetime import datetime
 import uuid
 
 # ---------- সেটআপ ----------
-st.set_page_config(page_title="তথ্য খাতা", page_icon="📒", layout="centered")
-
+st.set_page_config(page_title="তথ্য খাতা", page_icon="favicon.png", layout="centered")
 SHEET_NAME = "তথ্য খাতা"   # আপনার Google Sheet-এর নাম (secrets-এ না দিলে এটাই ব্যবহার হবে)
 HEADERS = ["id", "name", "mobile", "address", "notes", "created_at"]
 
@@ -72,7 +71,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📒 তথ্য খাতা")
+st.image("logo.png", width=100)st.title("তথ্য খাতা")
 
 # ---------- নতুন এন্ট্রি ----------
 with st.expander("➕ নতুন এন্ট্রি যোগ করুন"):
